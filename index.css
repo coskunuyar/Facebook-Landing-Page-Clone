@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    background-color: #3e5b99;
+    border: 1px solid blue;
+    color: white;
+}
+
+.header-logo{
+    width: 55%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.header-input{
+    width: 45%;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 5%;
+}
+
+p{
+    margin: 0;
+}
+
+.login-button-container{
+    align-self: center;
+}
+
+.input-field{
+    margin-right: 20px;
+    border: 1px solid blue;
+    padding: 3px;
+}
+
+.label-field{
+    font-size: 12px;
+    padding-bottom: 5px;;
+}
+
+.forgot-account{
+    padding: 5px 0px 5px 0px;
+    font-size: 11px;
+    color: #9cb4d8;
+}
+
+.forgot-account:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-button{
+    background-color: #4267b2;
+    border: 1px solid blue;
+    color: white;
+    padding: 3px;
+}
