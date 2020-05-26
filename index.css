@@ -63,3 +63,129 @@ p{
     color: white;
     padding: 3px;
 }
+
+
+.main{
+    display: flex;
+    background: linear-gradient(white, #D3D8E8);
+}
+
+.main-motto{
+    width: 55%;
+    text-align: center;
+}
+
+.main-register{
+    width: 45%;
+}
+
+.main-motto-text{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 45px;
+}
+
+.main-motto img{
+    margin-left: 20%;
+}
+
+.main-register{
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-register-create-account{
+    font-size: 36px;
+    color: #333;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.main-register-create-account-motto{
+    color: #1d2129;
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+.input-container{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.input-field-text{
+    font-size: 18px;
+    padding: 8px 10px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.register-button{
+    width: 200px;
+    background: linear-gradient(#67ae55, #578843);
+    background-image: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.label-grey{
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.birth-select{
+    font-size: 13px;
+    padding: 6px 8px;
+    border: 1px solid #bdc7d8;
+    margin: 0;
+}
+
+.gender-container input{
+    border-radius: 500px;
+}
+
+.gender-container label{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+
+.cookie-accept{
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.create-special-account{
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.question-mark-button{
+    border-radius: 100%;
+    border: none;
+    background-color: #606770;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
