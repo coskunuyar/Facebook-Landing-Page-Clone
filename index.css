@@ -189,3 +189,31 @@ p{
     padding: 5px;
     font-size: 12px;
 }
+
+.footer{
+    display: flex;
+}
+
+.languges{
+    margin-top: 40px;
+    margin-left: 15%;
+    font-size: 13px;
+}
+
+.languges span{
+    padding-left: 10px;
+    color: #737373;
+}
+
+.languges span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.other-language{
+    align-self: flex-end;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    font-size: 17px;
+}
